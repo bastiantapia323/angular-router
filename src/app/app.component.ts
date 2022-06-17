@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'newProyect';
+  title = 'Development-Optimization';
+
+  guardar() {
+    console.log('saved');
+  }
 }

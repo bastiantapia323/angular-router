@@ -1,0 +1,78 @@
+
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.mat-raised-button:not([class*=mat-elevation-z]) {
+margin-left: 10px;
+}
+
+.mat-mini-fab{
+margin-right: 10px;
+padding-bottom: 10px;
+}
+
+.mat-flat-button{
+margin: 10px;
+
+}
+::material-symbols-outlined .mat-icon {
+height: 10px;
+}
